@@ -13,11 +13,11 @@ public class Test {
 	}
 
 	public static void main(String[] args) {
-		Test obj = new Test();
+		Test obj = new Test();//object created because of non-static method
 
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number to be reversed:");
 		int n = input.nextInt();
-		obj.reverse(n);
+		obj.reverse(n);//user input sent to method reverse 
 	}
 }
